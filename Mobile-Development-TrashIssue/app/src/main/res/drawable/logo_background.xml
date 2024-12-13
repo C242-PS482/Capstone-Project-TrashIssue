@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shadow Layer -->
+    <item>
+        <shape>
+            <solid android:color="#33000000" /> <!-- Warna bayangan -->
+            <corners android:radius="40dp" />   <!-- Radius sudut shadow -->
+        </shape>
+    </item>
+
+    <!-- Main Shape Layer -->
+    <item android:left="3dp" android:top="3dp"> <!-- Geser bentuk utama untuk efek shadow -->
+        <shape>
+            <solid android:color="#D3D3D3" /> <!-- Warna utama -->
+            <corners android:radius="40dp" /> <!-- Radius sudut bentuk utama -->
+        </shape>
+    </item>
+
+</layer-list>
